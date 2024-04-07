@@ -12,34 +12,23 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    flex-direction: column;
     background: rgb(255, 255, 255);
-    @media screen and (min-height: 500px){
-        h1{
-            font-size: 20px;
-        }
-        .alunos{
-            height: 40%;
-            min-height: min-content;
-            font-size: 8px;
-            margin-top: 20px;
-        }
+    h1{
+        font-size: 20px;
     }
    }
 
 .header{
-    position: absolute;
-    top: 10%;
     display: flex;
     align-items: center;
-    @media screen and (min-height: 500px){
-        top: 5%;
-    }
+    justify-content: center;
 }
 
 .fundozoas{
     background-image: url("img1/conceito-de-transformacao-digital-de-fundo-de-cerebro-de-tecnologia-de-ia_53876-124672.png");
     border-radius: 10px;
-    margin-top: 40px;
+    margin-top: 1%;
 }
 
 .wrapper {
@@ -131,4 +120,16 @@ body {
 
 .card.flip .back-view{
     transform: rotateY(0);
+}
+
+.alunos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1%;
+    h2{
+        font-size: 15px;
+        font-weight: 500;
+    }
 }
