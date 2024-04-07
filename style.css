@@ -26,6 +26,9 @@ body {
     padding: 25px;
     background: #97e7ff9d;
     border-radius: 10px;
+    @media screen and (min-height: 500px){
+        width:400px;   
+    }
 }
 
 .cards,
