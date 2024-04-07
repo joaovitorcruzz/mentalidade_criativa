@@ -13,11 +13,33 @@ body {
     justify-content: center;
     min-height: 100vh;
     background: rgb(255, 255, 255);
+    @media screen and (min-height: 500px){
+        h1{
+            font-size: 20px;
+        }
+        .alunos{
+            height: 20%;
+            min-height: min-content;
+            font-size: 8px;
+            margin-top: 20px;
+        }
+    }
    }
+
+.header{
+    position: absolute;
+    top: 10%;
+    display: flex;
+    align-items: center;
+    @media screen and (min-height: 500px){
+        top: 5%;
+    }
+}
 
 .fundozoas{
     background-image: url("img1/conceito-de-transformacao-digital-de-fundo-de-cerebro-de-tecnologia-de-ia_53876-124672.png");
     border-radius: 10px;
+    margin-top: 40px;
 }
 
 .wrapper {
